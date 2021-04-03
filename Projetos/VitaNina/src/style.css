@@ -1,10 +1,100 @@
-.header
+@font-face 
 {
-    background-color: #D4B588;
+    font-family: "Sacramento";
+    src: url("../../../fonts/Sacramento/Sacramento-Regular.ttf");
 }
-.img1
+
+html
 {
     margin: 0;
     padding: 0;
-    height: 300px;
+    text-align: center;
+    align-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/img/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+#header
+{
+    z-index: 1;
+}
+.rtg1
+{
+    height: 50px;
+    background-color: #cbdf82;
+    align-content: center;
+}
+.rtg2
+{
+    height: 150px;
+    background-color: #e2caa8;
+}
+.img1
+{
+    width: 150px;
+    left: 84px;
+    top: 50px;
+    position:absolute;
+    z-index: 2;
+}
+.destaque
+{
+    background-color: #ffffff;
+    display: flex;
+}
+.texto1
+{
+    margin: 5px 10px;
+    font-family: Sacramento;
+    font-size: 70px;
+}
+.img2
+{
+    height: auto;
+    width: 500px;
+    z-index: 1;
+}
+#main
+{
+    height: 100%;
+}
+.rtg3
+{
+    height: 2000px;
+    width: 95%;
+    margin: 15px 2.5%;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+.rtg4
+{
+    background-color: #b0985f;
+    width: 100%;
+    z-index: 2;
+    font-size: 30px;
+}
+#pistache
+{
+    color: #cbdf82;
+    font-family: Sacramento;
+    font-size: 40px;
+}
+#lavanda
+{
+    color: #d9b2c6;
+    font-family: Sacramento;
+    font-size: 40px;
+}
+.texto2
+{
+    margin-top: 20px;
 }
