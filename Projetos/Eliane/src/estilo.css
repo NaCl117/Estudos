@@ -1,0 +1,64 @@
+
+body
+{
+    background-color: #0000ff;
+    background-color: rgb(000, 000, 255);
+    background-color: blue;
+}
+
+body
+{
+    color: #008000;
+    color: rgb(000, 128, 000);
+    color: green;
+}
+
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body
+{
+    font-size: medium;
+    font-size: 1em;
+    font-size: 1px;
+    font-size: 1%;
+    font-size: 1cm;
+}
+
+body
+{
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+}
+
+body
+{
+    letter-spacing: 1em;
+    word-spacing: 1px;
+}
+
+body
+{
+    background-image: url(exemple.png);
+    background-image: url(img/exemple.png);
+    background-image: url(./img/exemple.png);
+    background-image: url(../img/exemple.png);
+
+}
+
+body
+{
+    width: 1px;
+    height: 1px;
+}
+
+body
+{
+    float: left;
+    float: right;
+}
+
