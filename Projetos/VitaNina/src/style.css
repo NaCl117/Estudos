@@ -1,100 +1,123 @@
 @font-face 
 {
-    font-family: "Sacramento";
-    src: url("../../../fonts/Sacramento/Sacramento-Regular.ttf");
+    font-family: Laila;
+    src: url(../../../fonts/Laila/Laila-Regular.ttf);
 }
-
+@font-face 
+{
+    font-family: Montserrat;
+    src: url(../../../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face 
+{
+    font-family: Pacifico;
+    src: url(../../../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+@font-face 
+{
+    font-family: Sacramento;
+    src: url(../../../fonts/Sacramento/Sacramento-Regular.ttf);
+}
+@font-face 
+{
+    font-family: Code;
+    src: url(../../../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf);
+}
 html
 {
     margin: 0;
-    padding: 0;
-    text-align: center;
-    align-content: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Montserrat;
+}
+a:link
+{
+    color: white;
+    text-decoration: none;
+}
+a:visited
+{
+    color: white;
 }
 body
 {
     margin: 0;
-    padding: 0;
-    background-image: url(../images/img/background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 0;
 }
-#header
+#faixa1
 {
-    z-index: 1;
+    margin: 0;
+    background-color: #b6c77d;
+    height: 35px;
+    width: 100%;
 }
-.rtg1
+#social
 {
-    height: 50px;
-    background-color: #cbdf82;
-    align-content: center;
+    float: right;
 }
-.rtg2
+#social p
 {
-    height: 150px;
-    background-color: #e2caa8;
+    font-weight: 500;
+    display: inline;
+    position: relative;
+    top: -6px;
+    margin-right: 5px;
+    font-size: 17.5px;
 }
-.img1
+.socials
 {
-    width: 150px;
-    left: 84px;
-    top: 50px;
-    position:absolute;
-    z-index: 2;
+    margin: 5px 5px 0 0;
+    height: 25px;
+    width: 25px;
 }
-.destaque
+#faixa2
 {
-    background-color: #ffffff;
+    background-color: #e6ceaa;
     display: flex;
 }
-.texto1
+div#logo
 {
-    margin: 5px 10px;
-    font-family: Sacramento;
-    font-size: 70px;
+    height: 150px;
 }
-.img2
+div#menu
 {
-    height: auto;
-    width: 500px;
-    z-index: 1;
-}
-#main
-{
-    height: 100%;
-}
-.rtg3
-{
-    height: 2000px;
-    width: 95%;
-    margin: 15px 2.5%;
-    border-style: none;
-    border-radius: 15px;
-    background-color: #ffffff;
-    z-index: 2;
-}
-.rtg4
-{
-    background-color: #b0985f;
     width: 100%;
-    z-index: 2;
-    font-size: 30px;
 }
-#pistache
+#faixa2 img
 {
-    color: #cbdf82;
-    font-family: Sacramento;
-    font-size: 40px;
+    height: 140px;
+    margin: 5px 25px;
 }
-#lavanda
+nav
 {
-    color: #d9b2c6;
-    font-family: Sacramento;
-    font-size: 40px;
+    width: 100%;
 }
-.texto2
+#menu ul
 {
-    margin-top: 20px;
+    padding: 0px;
+    list-style: none;
+    height: 150px;
+    margin: 0;
+
+    align-items: center;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu ul li
+{
+    display: inline;
+    width: 225px;
+    margin: 10px 0px 10px 0px;
+
+    font-size: 25px;
+    text-align: center;
+
+}
+#menu ul li a 
+{
+    display: inline-block;
+    color: #000000;
+    padding: 25px 10px;
 }
