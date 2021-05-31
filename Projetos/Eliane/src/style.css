@@ -104,15 +104,36 @@ nav
     font-size: 25px;
     text-align: center;
 }
-#menu ul li:hover
+#menu li.selected
 {
-    background-color: #3353ff;
-    border: none;
-    border-radius: 20px;
+    background-color: #4d69fb !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: normal !important;
+    border: none !important;
+}
+#menu a.selected
+{
+    cursor: default !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: #e1e1e1 !important;
+    font-weight: normal !important;
+    border: none !important;
 }
 #menu ul li a 
 {
     display: inline-block;
     color: #000000;
-    padding: 25px 25px;
+    margin: 21.5px 10px;
+    padding: 0 15px;
+    font-size: 30px;
+}
+#menu ul li a:hover
+{
+    transition: 0.050s;
+    color: #4d69fb;
+    font-weight: bolder;
+    border-bottom: 3.5px solid #4d69fb;
+    border-radius: 2.5px;
 }
