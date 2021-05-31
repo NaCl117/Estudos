@@ -1,9 +1,11 @@
+
 @font-face 
 {
     font-family: Laila Regular;
     src: url(../../../fonts/Laila/Laila-Regular.ttf);
 }
-@font-face {
+@font-face
+{
     font-family: Laila Bold;
     src: url(../../../fonts/Laila/Laila-Bold.ttf);
 }
@@ -12,14 +14,6 @@ body
     background-color: #0d1741;
     margin: 0;
     font-family: Laila Regular;
-    position: relative;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-#header
-{
-    align-content: center;
 }
 .rtg1
 {
@@ -72,34 +66,53 @@ a
     background-color: #e1e1e1;
     width: 100%;
     height: 110px;
+    display: flex;
 }
 .img1
 {
     height: 100px;
-    margin: 5px 0 0 7.5px;
-    position: absolute;
-    left: 0;
+    margin: 5px 0px 5px 5px;
 }
-.menu_bar
+nav
+{
+    width: 100%;
+}
+#menu
+{
+    width: 100%;
+}
+#menu ul
+{
+    padding: 0px;
+    list-style: none;
+    height: 110px;
+    margin: 0;
+
+    align-items: center;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu ul li
 {
     display: inline;
-    margin: 1.1em;
-    margin-block-end: 0;
-    margin-block-start: 0;
+    width: 205px;
+    height: 90px;
+    margin: 10px 10px;
 
-    position: relative;
-    top:  31.5px;
-    left: 110px;
-
-    font-size: 30px;
-    background-color: #ffaacc;
-    padding: 0.6em 1.4em ;
-    text-transform: uppercase;
-    border: 2px solid black;
-    border-radius: 0.6em;
+    font-size: 25px;
+    text-align: center;
 }
-.c1
+#menu ul li:hover
 {
-    color: #fffffa
-    
+    background-color: #3353ff;
+    border: none;
+    border-radius: 20px;
+}
+#menu ul li a 
+{
+    display: inline-block;
+    color: #000000;
+    padding: 25px 25px;
 }
