@@ -1,4 +1,6 @@
-
+/* 
+    Parte presente em todas as páginas
+*/
 @font-face 
 {
     font-family: Laila Regular;
@@ -97,7 +99,7 @@ nav
 #menu ul li
 {
     display: inline;
-    width: 200px;
+    width: 250px;
     height: 90px;
     margin: 10px 10px;
 
@@ -129,11 +131,16 @@ nav
     border-bottom: 3.5px solid #3353ff;
     border-radius: 2.5px;
 }
-main
+div#main
 {
-    background-color: #e1e1e1;
+    background-color: #ffffff;
     height: 2000px;
     margin: 20px 150px;
     border: none;
     border-radius: 5px;
+}
+div#conteudos
+{
+    position: relative; top: 5px;
+    margin: 0 20px;
 }
