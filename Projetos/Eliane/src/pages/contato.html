@@ -1,18 +1,21 @@
+
 <!DOCTYPE html>
     <html lang="pt-br">
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
             <title>Fale conosco!</title>
             <link rel="stylesheet" href="../main.css">
             <link rel="sortcut icon" href="../../images/Logo Eliane.ico" type="image/x-icon">
+            <link rel="stylesheet" href="./contato.css">
             
         </head>
         <body>
-            <div id="header">
+            <header>
                 <div class="rtg1">
-                    <a href="contato.html" class="contato">Fale conosco</a>
+                    <a href="pages/contato.html" class="contato">Fale conosco</a>
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/instagram.png" alt="Instagram" class="ico5 icons"></a>
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/facebook.png" alt="Facebook" class="ico4 icons"></a>
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/whatsapp.png" alt="WhatsApp" class="ico3 icons"></a>
@@ -20,28 +23,37 @@
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/linkedin.png" alt="LinkeIn" class="ico1 icons"></a>
                 </div>
                 <div class="rtg2"></div>
+                </div>
+            </header>
+            <nav>
                 <div class="rtg3">
                     <div><!-- Logo -->
                         <img src="../../images/Logo.png" alt="Logo profissional" class="img1">
                     </div>
                     <div id="menu">
-                        <nav>
-                            <ul>
-                                <li><a href="../index.html">Home</a></li>
-                                <li><a href="blog.html"> Blog </a></li>
-                                <li><a href="services.html">Serviços</a></li>
-                                <li><a href="about.html">Sobre nòs</a></li>
-                            </ul>
-                        </nav>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="blog.html"> Blog </a></li>
+                            <li><a href="services.html">Serviços</a></li>
+                            <li><a href="about.html">Sobre nòs</a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <div id="main">
-                <div id="conteudos"> <!-- Conteúdos aqui ↓ -->
-                    <section>
-                        aa
-                    </section>
-                </div>
-            </div>
+            </nav>
+            <main>
+                <section class="content">
+                    <div class="contato2">
+                        <h3>Formulário de contato</h3>
+                        <form class="form" method="POST" action="./faleconosco.php" >
+                            <input class="field" name="name" placeholder="Nome">
+                            <input class="field" name="email" placeholder="E-mail">
+                            <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui."></textarea>
+                            <input type="submit" value="Enviar" class="field2">
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                
+            </footer>
         </body>
     </html>

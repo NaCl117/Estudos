@@ -1,0 +1,33 @@
+.content
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 25px;
+}
+.contato2
+{
+    width: 100%;
+    max-width: 500px;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+}
+.field
+{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 16px;
+    width: 1100px;
+}
+textarea
+{
+    height: 150px;
+}
+input.field2
+{
+    width: 500px;
+}

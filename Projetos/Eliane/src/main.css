@@ -144,3 +144,15 @@ div#conteudos
     position: relative; top: 5px;
     margin: 0 20px;
 }
+main
+{
+    background-color: #e1e1e1;
+    margin: 25px 100px;
+    border: none;
+    border-radius: 12.5px;
+    display: flex;
+}
+p
+{
+    margin: 10px 25px;
+}
