@@ -40,22 +40,24 @@
                     </div>
             </nav>
             <main>
-                <form name="meu_form">
+                <form name="contact_form">
 
                     <h1>Entre em contato</h1>
-                  
+                    <article> 
+                        <label for="nome">Nome</label>
                     <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
-                    <label for="nome">Nome</label>
                   
-                    <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-                    <label for="fone">Fone</label>
+                    <label for="telefone">Telefone/Celular</label>
+                    <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />                    
                   
-                    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
                     <label for="email">Email</label>
+                    <input type="email" id="emailid" placeholder="email@dominio.com" name="email" />
                   
-                    <textarea placeholder="Deixe sua opnião"></textarea>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea placeholder="Deixe sua dúvida, opinião ou mensagem"></textarea>
                   
                     <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                    </article>
                   </form>
             </main>
             <footer>
