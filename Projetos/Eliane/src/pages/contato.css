@@ -1,0 +1,71 @@
+main
+{
+  height: 825px
+}
+form 
+{
+  margin: 50px;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+  background-color: #ffffff;
+  width: 1050px;
+  border-radius: 10px;
+}
+form label 
+{
+  display: block;
+  margin-left: 25px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+h1 
+{
+  text-align: center;
+  color: #f2cb05;
+  text-shadow: 2.5px 2.5px 2.5px #e1e1e1;
+}
+
+input, textarea 
+{
+  font-family: "Laila Regular";
+  width: 975px;
+  padding: 15px;
+  color: black;
+  margin: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 20px;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+  border: solid 2.5px #f2cb05;
+  background-color: #f0f0f0;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.enviar 
+{
+  background-color: #f2cb05;
+  height: 60px;
+  width: 200px;
+  padding: auto;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid;
+  color: black;
+  margin: 25px 427.5px 30px 427.5px;
+}
+.enviar:hover
+{
+  background-color: #f7d840;
+}
+
+textarea 
+{
+  height: 120px;
+  line-height: 20px;
+  display: block;
+}
