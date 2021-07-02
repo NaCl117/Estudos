@@ -1,0 +1,54 @@
+section
+{
+  height: 320px;
+}
+#about section
+{
+  position: relative;
+  top: 25px;
+  margin: 25px;
+}
+#about h2
+{
+  margin: 0;
+}
+#about p
+{
+  margin: 0 5px;
+  font-size: large;
+  text-align: justify;
+  text-indent: 10px;
+}
+#pessoa1 img
+{
+  height: 300px;
+  position: relative;
+  top: 8px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 5px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#pessoa2 img
+{
+  height: 300px;
+  position: relative;
+  top: 8px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#pessoa3 img
+{
+  height: 300px;
+  position: relative;
+  top: 8px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 5px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
