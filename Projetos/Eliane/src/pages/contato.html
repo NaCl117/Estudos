@@ -16,7 +16,7 @@
         <body>
             <header>
                 <div class="rtg1">
-                    <a href="contato.html" class="contato">Fale conosco</a>
+                    <a class="contato">Fale conosco</a>
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/instagram.png" alt="Instagram" class="ico5 icons"></a>
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/facebook.png" alt="Facebook" class="ico4 icons"></a>
                     <a href="https://www.linkedin.com/in/elianesilvalves"><img src="../../images/whatsapp.png" alt="WhatsApp" class="ico3 icons"></a>
@@ -33,8 +33,7 @@
                     </div>
                     <div id="menu">
                         <ul>
-                            <li><a href="../index.html">Home</a></li>
-                            <li><a href="blog.html"> Blog </a></li>
+                            <li><a href="../blog.html"> Blog </a></li>
                             <li><a href="services.html">Serviços</a></li>
                             <li><a href="about.html">Sobre nòs</a></li>
                         </ul>
@@ -44,21 +43,50 @@
                 <form name="contact_form">
 
                     <h1>Entre em contato</h1>
-                    <article> 
-                        <label for="nome_id">Nome</label>
-                    <input type="text" id="nome_id" placeholder="nome" required="required" name="nome" />
-                  
-                    <label for="telefone_id">Telefone/Celular</label>
-                    <input type="tel" id="telefonne_id" placeholder="(xx)xxxxx-xxxx" name="fone" />                    
-                  
-                    <label for="email_id">Email</label>
-                    <input type="email" id="email_id" placeholder="email@dominio.com" name="email" />
-                  
-                    <label for="mensagem_id">Mensagem</label>
-                    <textarea placeholder="Deixe sua dùvida, opinião ou mensagem"></textarea>
-                  
+
+                    <table class="lado">
+                        <tr>
+                            <td><label for="nome_id">Nome</label></td>
+                            <td><label for="telefone_id"  style="margin: 0 12.5px">Telefone/Celular</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="nome_id"  style="margin: 5px 10px 5px 20px;" placeholder="Nome completo" required="required" name="nome"/></td>
+                            <td><input type="tel" id="telefonne_id"  style="margin: 5px 20px 5px 10px;" placeholder="(xx)xxxxx-xxxx" name="fone"/></td>
+                        </tr>                        
+                    </table>
+                    <table class="embaixo">
+                        <tr>
+                            <label for="email_id">Email</label>
+                            <input type="email" id="email_id" placeholder="email@dominio.com" name="email" />
+                        </tr>
+                        <tr>
+                            <label for="mensagem_id">Mensagem</label>
+                            <textarea placeholder="Deixe sua dùvida, opinião ou mensagem"></textarea>
+                        </tr>
+                    </table>
                     <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-                    </article>
+                    <!-- <article>
+                        <div class="lado_lado1">
+                            <div class="lado_lado2">
+                                <label for="nome_id">Nome</label>
+                                <br>
+                                <input type="text" id="nome_id" required="required" name="nome" />
+                            </div>
+                            <div class="lado_lado">
+                                <label for="telefone_id">Telefone/Celular</label>
+                                <br>
+                                <input type="tel" id="telefonne_id" placeholder="(xx)xxxxx-xxxx" name="fone" />                    
+                            </div>                 
+                        </div>
+                        <div class="embaixo">
+                            <label for="email_id">Email</label>
+                            <br>
+                            <input type="email" id="email_id" placeholder="email@dominio.com" name="email" />
+                            <label for="mensagem_id">Mensagem</label>
+                            <textarea placeholder="Deixe sua dùvida, opinião ou mensagem"></textarea>
+                        </div>
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                    </article> -->
                   </form>
             </main>
             <footer>

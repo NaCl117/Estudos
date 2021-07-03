@@ -100,11 +100,9 @@ nav
 #menu ul li
 {
     display: inline;
-    width: 250px;
+    width: 350px;
     height: 90px;
     margin: 10px 10px;
-
-    font-size: 25px;
     text-align: center;
 }
 #menu a.selected
@@ -120,9 +118,9 @@ nav
     display: inline-block;
     font-weight: bold;
     color: #000000;
-    margin: 21.5px 10px;
-    padding: 0 15px;
-    font-size: 30px;
+    margin: 5px 5px 15px 5px;
+    padding: 5px 20px 0 20px;
+    font-size: 45px;
 }
 #menu ul li a:hover
 {

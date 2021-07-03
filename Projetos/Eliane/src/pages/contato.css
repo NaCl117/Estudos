@@ -1,6 +1,6 @@
 main
 {
-  height: 825px
+  height: 740px
 }
 form 
 {
@@ -38,6 +38,17 @@ input, textarea
   border: 1px solid;
   font-size: 20px;
 }
+table.lado input 
+{
+  font-family: "Laila Regular";
+  width: 460px;
+  padding: 15px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 20px;
+}
+
 
 input:hover, textarea:hover, input:focus, textarea:focus {
   border: solid 2.5px #f2cb05;
