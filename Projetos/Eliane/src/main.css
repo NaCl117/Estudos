@@ -118,9 +118,9 @@ nav
     display: inline-block;
     font-weight: bold;
     color: #000000;
-    margin: 5px 5px 15px 5px;
+    margin: 10px 5px 15px 5px;
     padding: 5px 20px 0 20px;
-    font-size: 45px;
+    font-size: 40px;
 }
 #menu ul li a:hover
 {
