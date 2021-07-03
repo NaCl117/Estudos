@@ -42,7 +42,7 @@ input, textarea
 input:hover, textarea:hover, input:focus, textarea:focus {
   border: solid 2.5px #f2cb05;
   background-color: #f0f0f0;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
 }
 
