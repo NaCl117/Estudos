@@ -15,6 +15,9 @@ section
 #about h2
 {
   margin: 0;
+  color: #f2cb05;;
+  text-shadow: 1.5px 1.5px 1.5px #000000;
+  font-size: 25px;
 }
 #about p
 {
