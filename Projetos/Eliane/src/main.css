@@ -132,8 +132,9 @@ nav
 }
 main
 {
-    height: 100%;
+    height: 1000%;
     background-color: #e1e1e1;
     margin: 25px 100px;
     border-radius: 12.5px;
+    display: inline-block;
 }

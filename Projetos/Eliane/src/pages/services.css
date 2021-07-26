@@ -1,0 +1,27 @@
+section
+{
+  margin: 20px 40px;
+}
+h1
+{
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0 0 0;
+  margin-top: 20px;
+  color: #3353ff;
+}
+p
+{
+  text-align: justify;
+  text-indent: 1em;
+  font-size: 20px;
+  margin: 0;
+}
+ul, ol
+{
+  margin: 0 0 0 35px;
+}
+li
+{
+  font-size: 20px;
+}
